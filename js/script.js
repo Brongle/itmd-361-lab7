@@ -1,5 +1,4 @@
 function init(){
-//add your javascrip between these two lines of code
 	var button = document.getElementById('entrybutton');
 	
 	function showMeText(){
@@ -7,6 +6,7 @@ function init(){
 	  document.getElementById('textoutput').innerHTML = textbox.value;
 	  alert("Bryan Samek: " + textbox.value);
 	}
+	
 	button.addEventListener('click', showMeText);
 	}
 
