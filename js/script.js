@@ -3,10 +3,11 @@ function init(){
 	var button = document.getElementById('entrybutton');
 	
 	function showMeText(){
-		var textbox = document.getElementById('entryinput');
-		document.getElementByyId('textoutput').innerHTML = textbox.value;
-		alert("Bryan Samek + " + textbox.value);
+	  var textbox = document.getElementById('entryinput');
+	  document.getElementById('textoutput').innerHTML = textbox.value;
+	  alert("Bryan Samek: " + textbox.value);
 	}
 	button.addEventListener('click', showMeText);
 	}
+
 window.addEventListener('load', init);
